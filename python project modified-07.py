@@ -1,6 +1,16 @@
-print('Namaste Reader!This is a random story generator by P.Manideep,Harshini,Prince ')
+# -*- coding: utf-8 -*-
+"""
+Created on Fri Nov 25 22:31:01 2022
+
+@author: Popey
+"""
+
 import random
 
+name = input("Please enter your name : ")
+print("Hello "+name)
+print("Have a good day reading this story")
+print('This is a random story generator by P.Manideep, Harshini, Prince \n')
 
 names = [' Aditya',' Harshit',' Ajay',' Ishaan',' Virat',' Anil',' Sahil',' Nikhil',' Iswar','Aman','Krishna','Mohit','Pranav','Shaurya']
 
@@ -8,7 +18,7 @@ places =[' Mumbai',' Kolkata',' Bhagyanagar',' Vijaywada',' Indore',' Patna',' R
 
 body = [' went a grand building and took a photograph',' met very famous celebrity ',' went to the most beautiful spot where he wanted to visit eagerly ',' Collected stamps & old currencies',' learnt their tradition dance',' celebrated New Year',' tasted their local foods']
 
-roles = ['a college student','a youtuber',' a vlogger','a school student','a normie guy','a retired army officer','a professer',' a LPU verto',' a adventurous guy']
+roles = [' a college student',' a youtuber',' a vlogger',' a school student','a normie guy','a retired army officer','a professer',' a LPU verto',' a adventurous guy']
 
 weather = [' a very hot and humid day',' a cloudy day',' a rainy day',' a cold night',' a sunny day']
 
